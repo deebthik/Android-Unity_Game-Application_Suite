@@ -1,0 +1,37 @@
+fileFormatVersion: 2
+guid: dc6c7b492de0c4d24826b5c6997fd7ef
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - menu_play_button: {instanceID: 0}
+  - menu_options_button: {instanceID: 0}
+  - menu_how_to_play_button: {instanceID: 0}
+  - menu_exit_button: {instanceID: 0}
+  - tilt_city: {instanceID: 0}
+  - menu_play_button_plane_prefab: {instanceID: 0}
+  - menu_options_button_plane_prefab: {instanceID: 0}
+  - menu_how_to_play_button_plane_prefab: {instanceID: 0}
+  - red_cylinder: {instanceID: 0}
+  - red_cylinder_halo: {instanceID: 0}
+  - green_cylinder: {instanceID: 0}
+  - green_cylinder_halo: {instanceID: 0}
+  - blue_cylinder: {instanceID: 0}
+  - blue_cylinder_halo: {instanceID: 0}
+  - yellow_cylinder: {instanceID: 0}
+  - yellow_cylinder_halo: {instanceID: 0}
+  - crane: {instanceID: 0}
+  - big_cuboid: {instanceID: 0}
+  - small_cuboid_1: {instanceID: 0}
+  - small_cuboid_2: {instanceID: 0}
+  - game_over_plane: {instanceID: 0}
+  - game_over: {instanceID: 0}
+  - game_over_score: {instanceID: 0}
+  - game_over_exit_button: {instanceID: 0}
+  - time_elapsed: {instanceID: 0}
+  - score: {instanceID: 0}
+  - score_text: {instanceID: 0}
+  - game_over_plane_prefab: {fileID: 100000, guid: 576b1f1d2fa83423480329d302cf5336,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

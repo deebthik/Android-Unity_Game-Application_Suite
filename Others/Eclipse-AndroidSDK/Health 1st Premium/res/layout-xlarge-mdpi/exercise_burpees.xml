@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/burpees_scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/light_green" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/burpees_instructions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/burpees"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Instructions"
+            android:textSize="70sp" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="750dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/burpees_instructions"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="From a standing position, squat down low, placing your hands palm down on the ground just outside of your feet."
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/burpees_purpose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextView01"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Purpose"
+            android:textSize="70sp" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="750dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/burpees_purpose"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="The Burpee is a great total body move that focuses on strengthening and toning the legs and core. In this more advanced level, the extra jumping motion increases the speed at which the body burns fat and calories. The jumping motion combined with the plank also offer an extra component of strength and toning for the legs. With high repetitions in quick succession, this is also great for challenging your cardiovascular endurance, specifically your anaerobic threshold. This is another great addition to a home workout because of its use of multiple muscle groups, giving you more calorie burn in less time."
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/burpees"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@color/light_orange"
+            android:text="1. Burpees"
+            android:textSize="80sp"
+            android:gravity="center"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="600dp"
+            android:layout_below="@+id/TextView02"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical" >
+
+            <VideoView
+                android:id="@+id/burpees_video"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

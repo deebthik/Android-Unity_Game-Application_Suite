@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/plow_pose_scrollview"
+    android:background="@color/light_blue"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+   <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:background="@color/light_orange"
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textSize="70sp"
+            android:textStyle="bold"
+            android:text="Plow Pose \n(Halasana)" />
+
+        <TextView
+            android:id="@+id/plow_pose_instructions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Instructions"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="580dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/plow_pose_instructions"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Lie on your back and bring your legs straight up in the air towards the ceiling. Bring your arms alongside your body with your palms down. Press into your hands and lift your legs over your head.
+
+If your legs do not touch the ground behind you, bring your hands to your back for support. If your feet do hit the ground, then do what you did in Bridge pose and clasp your hands together, trying to roll your shoulder blades towards one another."
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/plow_pose_purpose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextView01"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Purpose"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="580dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/plow_pose_purpose"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="A lot people complain about stiffness on the neck and lower back as a result of stress and wrong posture. In the Plow Pose, you stretch the neck and the lower back muscles. At the same time you achieve a new structure in your back. 
+
+As a result of the way you place the neck and the legs you get hardly any chance to compensate stiffness in the neck or lower back: something that easily happens in other positions. The Plough is also good for your digestion and it strengthens the kidneys, the liver and the gall bladder. "
+            android:textSize="30sp" />
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="450dp"
+            android:layout_below="@+id/TextView02"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical" >
+
+            <VideoView
+                android:id="@+id/plow_pose_video"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    
+
+</ScrollView>

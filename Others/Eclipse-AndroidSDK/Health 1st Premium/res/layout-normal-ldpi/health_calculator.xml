@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/health_calculator_scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_blue">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:background="@color/light_yellow"
+        android:text="Health Calculator"
+        android:textSize="35sp" 
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="These questions need to be answered honestly in order to get the accurate result."
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:background="@color/light_green"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="30dp" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:text="1. Do you exercise daily?"
+            android:textSize="25dp" />
+
+        <RadioGroup
+            android:id="@+id/q1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="15dp" >
+
+            <RadioButton
+                android:id="@+id/yes1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_below="@+id/textView3"
+                android:text="Yes"
+                android:textSize="20sp" />
+            
+            <RadioButton
+                android:id="@+id/no1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_below="@+id/yes1"
+                android:text="No"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp" />
+            
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/q1"
+            android:layout_below="@+id/q1"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:text="2. Do you have proper three meals everyday?"
+            android:textSize="25dp" />
+
+        <RadioGroup
+            android:id="@+id/q2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView01"
+            android:layout_below="@+id/TextView01"
+            android:layout_marginTop="15dp" >
+
+            <RadioButton
+                android:id="@+id/yes2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_below="@+id/textView3"
+                android:text="Yes"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/no2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_below="@+id/yes2"
+                android:layout_marginTop="10dp"
+                android:text="No"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/q2"
+            android:layout_below="@+id/q2"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:text="3. Do you sleep for a minimum of 8 hours everyday?"
+            android:textSize="25dp" />
+
+        <RadioGroup
+            android:id="@+id/q3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView02"
+            android:layout_below="@+id/TextView02"
+            android:layout_marginTop="15dp" >
+
+            <RadioButton
+                android:id="@+id/yes3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_below="@+id/textView3"
+                android:text="Yes"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/no3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_below="@+id/yes2"
+                android:layout_marginTop="10dp"
+                android:text="No"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/q3"
+            android:layout_below="@+id/q3"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:text="4. Do you drink at least 8 glasses of water (minimum 2 litres) everyday?"
+            android:textSize="25dp" />
+
+        <RadioGroup
+            android:id="@+id/q4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView03"
+            android:layout_below="@+id/TextView03"
+            android:layout_marginTop="15dp" >
+
+            <RadioButton
+                android:id="@+id/yes4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_below="@+id/textView3"
+                android:text="Yes"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/no4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_below="@+id/yes2"
+                android:layout_marginTop="10dp"
+                android:text="No"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/q4"
+            android:layout_below="@+id/q4"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:text="5. Do you smoke?"
+            android:textSize="25dp" />
+
+        <RadioGroup
+            android:id="@+id/q5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView04"
+            android:layout_below="@+id/TextView04"
+            android:layout_marginTop="15dp" >
+
+            <RadioButton
+                android:id="@+id/yes5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_below="@+id/textView3"
+                android:text="Yes"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/no5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_below="@+id/yes2"
+                android:layout_marginTop="10dp"
+                android:text="No"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/q5"
+            android:layout_below="@+id/q5"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:text="6. Do you intake alcohol?"
+            android:textSize="25dp" />
+
+        <RadioGroup
+            android:id="@+id/q6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView05"
+            android:layout_below="@+id/TextView05"
+            android:layout_marginTop="15dp" >
+
+            <RadioButton
+                android:id="@+id/yes6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_below="@+id/textView3"
+                android:text="Yes"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/no6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_below="@+id/yes2"
+                android:layout_marginTop="15dp"
+                android:text="No"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/TextView06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/q6"
+            android:layout_below="@+id/q6"
+            android:layout_marginTop="20dp"
+            android:text="7. Do you eat some amount of vegetables everyday?"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/q7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView06"
+            android:layout_below="@+id/TextView06"
+            android:layout_marginTop="15dp" >
+
+            <RadioButton
+                android:id="@+id/yes7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_below="@+id/textView3"
+                android:text="Yes"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/no7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_below="@+id/yes2"
+                android:layout_marginTop="15dp"
+                android:text="No"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/TextView07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/q7"
+            android:layout_below="@+id/q7"
+            android:layout_marginTop="20dp"
+            android:text="8. Do you eat fruits everyday?"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/q8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView07"
+            android:layout_below="@+id/TextView07"
+            android:layout_marginTop="15dp" >
+
+            <RadioButton
+                android:id="@+id/yes8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_below="@+id/textView3"
+                android:text="Yes"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/no8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_below="@+id/yes2"
+                android:layout_marginTop="15dp"
+                android:text="No"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/TextView08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/q8"
+            android:layout_below="@+id/q8"
+            android:layout_marginTop="20dp"
+            android:text="9. Is you BMI normal?"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/q9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView08"
+            android:layout_below="@+id/TextView08"
+            android:layout_marginTop="15dp" >
+
+            <RadioButton
+                android:id="@+id/yes9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_below="@+id/textView3"
+                android:text="Yes"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/no9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_below="@+id/yes2"
+                android:layout_marginTop="15dp"
+                android:text="No"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/TextView09"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/q9"
+            android:layout_below="@+id/q9"
+            android:layout_marginTop="20dp"
+            android:text="10. Do you eat junk food often?"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/q10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView09"
+            android:layout_below="@+id/TextView09"
+            android:layout_marginTop="15dp" >
+
+            <RadioButton
+                android:id="@+id/yes10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_below="@+id/textView3"
+                android:text="Yes"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/no10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_below="@+id/yes2"
+                android:layout_marginTop="15dp"
+                android:text="No"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/your_health"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q10"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:textSize="35sp"
+            android:text="Your Health" />
+
+        <TextView
+            android:id="@+id/health"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/your_health"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:background="@color/black"
+            android:textSize="35sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
+    
+</ScrollView>
+

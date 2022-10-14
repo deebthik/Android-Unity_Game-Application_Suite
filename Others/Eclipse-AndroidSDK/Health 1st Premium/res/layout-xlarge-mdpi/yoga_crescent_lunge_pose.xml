@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/crescent_lunge_pose_scrollview"
+    android:background="@color/light_blue"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+   <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:background="@color/light_orange"
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textSize="80sp"
+            android:textStyle="bold"
+            android:text="Crescent Lunge Pose \n(Anjaneyasana)" />
+
+        <TextView
+            android:id="@+id/crescent_lunge_pose_instructions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Instructions"
+            android:textSize="70sp" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="750dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/crescent_lunge_pose_instructions"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Begin in downward dog pose. Step your right foot between your hands. Lower your hips into lunge position and shift your weight onto the ball of your back foot, bringing your hands to your hips. Stay up on the ball of your back foot and lift your upper body so that you&apos;re standing straight up. Keep your hips squared the entire time. Bring your arms above you and reach for the ceiling.  Palms should be facing each other. Hold for 30 seconds to 1 minute and then switch sides."
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/crescent_lunge_pose_purpose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextView01"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Purpose"
+            android:textSize="70sp" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="750dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/crescent_lunge_pose_purpose"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="The Crescent Moon Pose strengthens your legs, back, shoulders, and arms, building stamina. It opens your hips and chest, and improves balance. This is an excellent exercise to start a number of backbends with. The lower back gets relaxed, the leg muscles are stretched and you build up strength in your legs. You also improve your coordination and concentration. "
+            android:textSize="40sp" />
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="800dp"
+            android:layout_below="@+id/TextView02"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical" >
+
+            <VideoView
+                android:id="@+id/crescent_lunge_pose_video"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    
+    
+
+</ScrollView>

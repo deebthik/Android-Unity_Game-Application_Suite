@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="3000dp"
+    android:background="@color/black" >
+
+    <Button
+        android:id="@+id/exercise"
+        android:layout_width="600dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="196dp"
+        android:background="@drawable/button1"
+        android:text="Exercise"
+        android:textSize="100sp" />
+
+    <ImageView
+        android:id="@+id/ImageView01"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/exercise"
+        android:layout_marginTop="223dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/green_bar_h" />
+
+    <Button
+        android:id="@+id/yoga"
+        android:layout_width="500dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/ImageView01"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="191dp"
+        android:background="@drawable/button1"
+        android:text="Yoga"
+        android:textSize="100sp" />
+
+</RelativeLayout>

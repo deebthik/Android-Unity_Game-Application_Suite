@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/exercise_scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/light_yellow" >
+    
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@color/light_green"
+            android:gravity="center"
+            android:text="Exercise"
+            android:textSize="80sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@color/light_blue"
+            android:gravity="center"
+            android:text="What is Exercise?"
+            android:textSize="70sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="750dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Exercise is the physical exertion of the body - making the body do a physical activity which results in a healthy or healthier level of physical fitness and both physical and mental health. In other words, exercise aims to maintain or enhance our physical fitness and general health."
+            android:textSize="40sp" />
+
+        <TextView
+            android:background="@color/black"
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="Top 5 Exercices"
+            android:textSize="70sp" >
+        </TextView>
+
+        <Button
+            android:id="@+id/burpees_button"
+            android:layout_width="350dp"
+            android:layout_height="120dp"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_below="@+id/textView4"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button1"
+            android:text="1. Burpees"
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/lunge_jumps_button"
+            android:layout_width="490dp"
+            android:layout_height="120dp"
+            android:layout_alignLeft="@+id/burpees_button"
+            android:layout_below="@+id/burpees_button"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button1"
+            android:text="2. Lunge Jumps"
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/pilates_leg_pulls_button"
+            android:layout_width="570dp"
+            android:layout_height="120dp"
+            android:layout_alignLeft="@+id/lunge_jumps_button"
+            android:layout_below="@+id/lunge_jumps_button"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button1"
+            android:text="3. Pilates Leg Pulls"
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/jack_knife_crunches_button"
+            android:layout_width="680dp"
+            android:layout_height="120dp"
+            android:layout_alignLeft="@+id/pilates_leg_pulls_button"
+            android:layout_below="@+id/pilates_leg_pulls_button"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button1"
+            android:text="4. Jack Knife Crunches"
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/push_ups_button"
+            android:layout_width="400dp"
+            android:layout_height="120dp"
+            android:layout_alignLeft="@+id/jack_knife_crunches_button"
+            android:layout_below="@+id/jack_knife_crunches_button"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button1"
+            android:text="5. Push Ups"
+            android:textSize="60sp" />
+
+    </RelativeLayout>
+    
+</ScrollView>
+

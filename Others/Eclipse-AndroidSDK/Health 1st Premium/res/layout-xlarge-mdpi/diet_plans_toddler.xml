@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/light_green"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:background="@color/light_yellow"
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:textSize="80sp"
+            android:gravity="center"
+            android:text="Diet Plan for Toddler" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="750dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:text="Children from about one year old, will have been weaned onto solid foods, and can effectively eat the same foods as an adult, though obviously in different amounts. This stage in life is vital to good development both physically and mentally, therefore optimum nutrition is vital, not only for the child&apos;s health, but also reduction in risk of disease later in life. \n\nThese few years are also times where the child experiments with a whole range of different foods and meals, and can shape eating patterns for their whole life. Try to steer your child away from processed foods and confectionary, and choose more traditional &apos;healthy&apos; alternatives, though don&apos;t let them feel too left out from the other kids in the playgroup, and occasional treats are fine."
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="50dp"
+            android:textStyle="bold"
+            android:text="Breakfast"
+            android:textSize="60sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/textView3"
+            android:layout_toRightOf="@+id/textView3"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="High fibre cereal (like Weetabix, Shreddies or porridge – but avoid sugar coated cereal) + full cream milk (preferably no additional sugar although a very light sprinkling would be acceptable).\n200ml fresh fruit juice"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_below="@+id/textView4"
+            android:layout_marginTop="40dp"
+            android:text="Mid-\nMorning"
+            android:textSize="60sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_alignTop="@+id/TextView01"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="1-2 wholewheat biscuits (e.g. oatcakes, digestive)
+Item fruit chopped up in a bowl
+200ml full cream milk"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView01"
+            android:layout_below="@+id/TextView02"
+            android:layout_marginTop="40dp"
+            android:text="Lunch"
+            android:textSize="60sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/TextView03"
+            android:layout_toRightOf="@+id/textView3"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Sandwich: 2 slices wholemeal + butter + thin slice chicken/ham or tuna in low fat natural yoghurt
+Chopped carrot and cucumber in a bowl
+Yoghurt
+Drink water or diluted high-juice cordial"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView03"
+            android:layout_below="@+id/TextView04"
+            android:layout_marginTop="40dp"
+            android:text="Mid-\nAfternoon"
+            android:textSize="58sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView04"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/TextView05"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Sandwich: 2 slices wholemeal + butter + thin slice chicken/ham or tuna in low fat natural yoghurt"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/TextView07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView05"
+            android:layout_below="@+id/TextView06"
+            android:layout_marginTop="40dp"
+            android:text="Evening \nMeal"
+            android:textSize="60sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView06"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/TextView07"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Typical family meal e.g.: 40-50g chicken breast / lean meat / white fish
+2 tbsp cooked basmati rice or 40g cooked pasta or small potato mashed/boiled/jacket
+Tbsp cooked veg
+Drink water or diluted high-juice cordial"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/TextView09"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView07"
+            android:layout_below="@+id/TextView08"
+            android:layout_marginTop="40dp"
+            android:text="Evening"
+            android:textSize="60sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView08"
+            android:layout_alignTop="@+id/TextView09"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Drink water or diluted high-juice cordial or milk"
+            android:textSize="40sp" />
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/light_green"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:background="@color/light_yellow"
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:text="Diet Plan for Average Female Adult" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="The following example meal plan has been designed for an &apos;average&apos; female. It&apos;s nutritionally balanced to suit a young adult female who has a sedentary job and weighs 60-65kg, and she should maintain her weight on this. \n\nObviously this is a hypothetical female, so like all plans, it is merely an example and needs to be adapted to suit an individual&apos;s own lifestyle, daily routine and nutritional requirements. Use this to give you an idea of what are healthy nutritious foods to include, but don&apos;t forget to vary your food choices and to drink plenty of water through the day."
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:text="Breakfast"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/textView3"
+            android:layout_toRightOf="@+id/textView3"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="High fibre cereal (like Weetabix, bran flakes, Shreddies, muesli, porridge, etc) + 200ml skimmed milk + 1 tsp sugar
+200ml fruit juice
+Mug tea/coffee"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_below="@+id/textView4"
+            android:layout_marginTop="20dp"
+            android:text="Mid-\nMorning"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_alignTop="@+id/TextView01"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Item fruit
+Drink\n"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView01"
+            android:layout_below="@+id/TextView02"
+            android:layout_marginTop="20dp"
+            android:text="Lunch"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/TextView03"
+            android:layout_toRightOf="@+id/textView3"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Sandwich: 2 slices granary bread + olive oil-based spread + slice chicken/ham or tuna in low fat natural yoghurt or smoked salmon
+Mixed salad
+or salad with tuna/salmon /chicken/ham + crispbread
+Low fat / low sugar yoghurt
+Drink"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView03"
+            android:layout_below="@+id/TextView04"
+            android:layout_marginTop="20dp"
+            android:text="Mid-\nAfternoon"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView04"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/TextView05"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Small flapjack or cereal bar
+Item fruit
+Drink"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TextView07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView05"
+            android:layout_below="@+id/TextView06"
+            android:layout_marginTop="20dp"
+            android:text="Evening \nMeal"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView06"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/TextView07"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="120g chicken breast or 140g white fish or 120g lean meat and 2-3 tblsp basmati rice or 2 cupfuls cooked pasta or 1 medium potato and loads of veg or large salad"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TextView09"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView07"
+            android:layout_below="@+id/TextView08"
+            android:layout_marginTop="20dp"
+            android:text="Evening"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView08"
+            android:layout_alignTop="@+id/TextView09"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Item Fruit \nDrink"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+</ScrollView>

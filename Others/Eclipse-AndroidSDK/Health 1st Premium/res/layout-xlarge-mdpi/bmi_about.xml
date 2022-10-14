@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:background="@color/light_yellow"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent" >
+    
+    <RelativeLayout
+    
+    android:id="@+id/relativelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@color/light_green"
+            android:text="What is BMI ?"
+            android:textSize="70sp"
+            android:gravity="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="750dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Body Mass Index (BMI) is a number calculated from a person&apos;s weight and height. BMI is a fairly reliable indicator of body fatness for most people. BMI does not measure body fat directly, but research has shown that BMI correlates to direct measures of body fat, such as underwater weighing and dual energy x-ray absorptiometry (DXA).BMI can be considered an alternative for direct measures of body fat. Additionally, BMI is an inexpensive and easy-to-perform method of screening for weight categories that may lead to health problems."
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="40dp"
+            android:background="@color/light_green"
+            android:gravity="center"
+            android:text="How is BMI used ?"
+            android:textSize="70sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="750dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextView01"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="BMI is used as a screening tool to identify possible weight problems for adults. However, BMI is not a diagnostic tool. For example, a person may have a high BMI. However, to determine if excess weight is a health risk, a healthcare provider would need to perform further assessments. These assessments might include skinfold thickness measurements, evaluations of diet, physical activity, family history, and other appropriate health screenings."
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView02"
+            android:layout_marginTop="40dp"
+            android:background="@color/light_green"
+            android:gravity="center"
+            android:text="How reliable is BMI as an indicator of body fatness?"
+            android:textSize="60sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="750dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextView03"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="The correlation between the BMI number and body fatness is fairly strong; however the correlation varies by sex, race, and age. These variations include the following examples: 3, 4
+At the same BMI, women tend to have more body fat than men.
+At the same BMI, older people, on average, tend to have more body fat than younger adults.
+Highly trained athletes may have a high BMI because of increased muscularity rather than increased body fatness.\n\n
+It is also important to remember that BMI is only one factor related to risk for disease. For assessing someone&apos;s likelihood of developing overweight- or obesity-related diseases, the National Heart, Lung, and Blood Institute guidelines recommend looking at two other predictors:
+The individual&apos;s waist circumference (because abdominal fat is a predictor of risk for obesity-related diseases).
+Other risk factors the individual has for diseases and conditions associated with obesity (for example, high blood pressure or physical inactivity)."
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView04"
+            android:layout_marginTop="40dp"
+            android:background="@color/light_green"
+            android:gravity="center"
+            android:text="Is BMI interpreted the same way for children and teens as it is for adults?"
+            android:textSize="60sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView06"
+            android:layout_width="750dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextView05"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Although the BMI number is calculated the same way for children and adults, the criteria used to interpret the meaning of the BMI number for children and teens are different from those used for adults. For children and teens, BMI age- and sex-specific percentiles are used for two reasons:
+The amount of body fat changes with age.
+The amount of body fat differs between girls and boys.
+Because of these factors, the interpretation of BMI is both age- and sex-specific for children and teens. The CDC BMI-for-age growth charts take into account these differences and allow translation of a BMI number into a percentile for a child&apos;s sex and age.
+For adults, on the other hand, BMI is interpreted through categories that are not dependent on sex or age."
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/TextView07"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView06"
+            android:layout_marginTop="40dp"
+            android:background="@color/light_green"
+            android:gravity="center"
+            android:text="History of BMI"
+            android:textSize="70sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView08"
+            android:layout_width="750dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextView07"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="Belgian polymath Adolphe Quetelet devised what we now know as the BMI equation in 1832 as a way to define the “normal man.”  He never intended for the equation (weight equals height squared) to be used to determine body fat — his project was intended to describe the standard proportions of the human build.  The equation was largely ignored by the medical community even though insurance companies began using somewhat vague comparisons of height and weight among policyholders beginning in the early twentieth century. Slate writer Jeremy Singer-Vine doesn’t go in much detail about these tables."
+            android:textSize="40sp" />
+    
+	</RelativeLayout>
+</ScrollView>

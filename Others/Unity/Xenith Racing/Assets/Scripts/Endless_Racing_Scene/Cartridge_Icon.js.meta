@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 4ea57c7dd93b942c6b881747036970e3
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - cartridge_icon: {instanceID: 0}
+  - gui_skin: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

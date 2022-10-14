@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/light_green"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:background="@color/light_yellow"
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:text="Diet Plan for Adolescent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="As the child grows up, they&apos;ll move on from following a child&apos;s diet, as they are now at an age when more and more food choice is down to them. This plan is therefore aimed both at parents of teenagers who have a responsibility to ensure their adolescent eats a good food, and at teenagers themselves – you may well be searching on the internet for good, healthy meal plans including food choices you like.
+
+Adolescence is characterised from the age of 12 /13 to about 17/18, and in the latter years, the individual can really follow a suitable adult diet according to their needs"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:text="Breakfast"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/textView3"
+            android:layout_toRightOf="@+id/textView3"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="High fibre cereal (like 2-3 Weetabix, Shreddies or porridge – avoid sugar coated cereal) + skimmed milk (preferably no additional sugar although a very light sprinkling would be acceptable)
+2-3 slices granary bread (toasted) + olive oil based spread + jam / peanut butter
+200ml fresh fruit juice"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_below="@+id/textView4"
+            android:layout_marginTop="20dp"
+            android:text="Mid-\nMorning"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_alignTop="@+id/TextView01"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="1-2 wholewheat biscuits (e.g. oatcakes, digestive) or flapjack commercial / home-made easy flapjack
+Item fruit
+Drink"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView01"
+            android:layout_below="@+id/TextView02"
+            android:layout_marginTop="20dp"
+            android:text="Lunch"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/TextView03"
+            android:layout_toRightOf="@+id/textView3"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Sandwich: 2-4 slices wholemeal / granary bread + olive oil based spread + chicken/ham or tuna in low fat natural yoghurt or cheese
+Chopped carrot / cucumber / celery in a bowl
+Yoghurt
+1 square home-made easy easy flapjack
+Drink water"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView03"
+            android:layout_below="@+id/TextView04"
+            android:layout_marginTop="20dp"
+            android:text="Mid-\nAfternoon"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView04"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/TextView05"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="1-2 wholewheat biscuits (e.g. oatcakes, digestive) or flapjack commercial / home-made easy flapjack
+Item fruit
+Drink"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TextView07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView05"
+            android:layout_below="@+id/TextView06"
+            android:layout_marginTop="20dp"
+            android:text="Evening \nMeal"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView06"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/TextView07"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Typical family meal e.g.: 120-150g chicken breast / lean meat / white fish
+5-6 tbsp cooked basmati rice or 600g cooked pasta or potatoes mashed / boiled / jacket
+Cooked veg
+Drink"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TextView09"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView07"
+            android:layout_below="@+id/TextView08"
+            android:layout_marginTop="20dp"
+            android:text="Evening \nSnack"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView08"
+            android:layout_alignTop="@+id/TextView09"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="High fibre cereal (like Weetabix, Shreddies or porridge – avoid sugar coated cereal) + skimmed milk
+or 2 slices granary bread (toasted) + olive oil based spread + jam / peanut butter
+Drink"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TextView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView09"
+            android:layout_below="@+id/TextView10"
+            android:layout_marginTop="20dp"
+            android:text="Bedtime"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView10"
+            android:layout_alignTop="@+id/TextView11"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Drink"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+</ScrollView>

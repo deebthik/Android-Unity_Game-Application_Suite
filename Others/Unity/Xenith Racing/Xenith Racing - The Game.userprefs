@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../Gyrate/Assets/Scripts/Change_Direction.js">
+    <Files>
+      <File FileName="../Gyrate/Assets/Scripts/Ring_Rotate.js" Line="26" Column="2" />
+      <File FileName="../Gyrate/Assets/Scripts/Change_Direction.js" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

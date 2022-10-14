@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/green_bar_h" />
+
+    <Button
+        android:id="@+id/diet_plans_button"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="94dp"
+        android:background="@drawable/button1"
+        android:text="Diet Plans"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/about_diet_button"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="96dp"
+        android:background="@drawable/button1"
+        android:text="About Diet"
+        android:textSize="40sp" />
+
+</RelativeLayout>

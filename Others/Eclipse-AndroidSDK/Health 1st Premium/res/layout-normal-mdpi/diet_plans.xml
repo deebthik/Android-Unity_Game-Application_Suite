@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/light_blue"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:background="@color/light_orange"
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:text="Diet Plans" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Diet plans for different age groups and genders:"
+            android:textSize="20sp" />
+        
+        <Button
+            android:id="@+id/toddler_button"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button1"
+            android:text="1. Toddler"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/children_button"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/toddler_button"
+            android:layout_below="@+id/toddler_button"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button1"
+            android:text="2. Children"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/adolescent_button"
+            android:layout_width="230dp"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/children_button"
+            android:layout_below="@+id/children_button"
+            android:layout_marginTop="21dp"
+            android:background="@drawable/button1"
+            android:text="3. Adolescent"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/male_adult_button"
+            android:layout_width="230dp"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/adolescent_button"
+            android:layout_below="@+id/adolescent_button"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button1"
+            android:text="4. Male Adult"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/female_adult_button"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/male_adult_button"
+            android:layout_below="@+id/male_adult_button"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button1"
+            android:text="5. Female Adult"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/pregnancy_button"
+            android:layout_width="230dp"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/female_adult_button"
+            android:layout_below="@+id/female_adult_button"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button1"
+            android:text="6. Pregnancy"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/elderly_person_button"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/pregnancy_button"
+            android:layout_below="@+id/pregnancy_button"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button1"
+            android:text="7. Elderly Person"
+            android:textSize="30sp" />
+
+    </RelativeLayout>
+    
+</ScrollView>

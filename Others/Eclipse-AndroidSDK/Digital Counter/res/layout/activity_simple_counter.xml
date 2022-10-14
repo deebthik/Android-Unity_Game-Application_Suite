@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+   
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <Button
+        android:id="@+id/subtract1"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="108dp"
+        android:text="Subtract 1"
+        android:textSize="50dp" />
+
+    <Button
+        android:id="@+id/add1"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/subtract1"
+        android:layout_centerVertical="true"
+        android:text="Add 1"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/view1"
+        android:fontFamily="Arial"
+        android:gravity="center"
+        android:text="Your Count is"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="Arial"
+        android:gravity="center"
+        android:text="0"
+        android:textSize="60dp" />
+
+</RelativeLayout>

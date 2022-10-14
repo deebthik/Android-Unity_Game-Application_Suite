@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/light_green"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:background="@color/light_yellow"
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:textSize="70sp"
+            android:gravity="center"
+            android:text="Diet Plan for Pregnancy" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="580dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="During pregnancy it&apos;s important to ensure optimal health for the mother as well as ideal nutrition for the baby to ensure that he/she develops properly. It&apos;s important to eat sensibly and the basic healthy eating guidelines apply with a few additional considerations:"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/folic_acid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="40dp"
+            android:text="Folic Acid (Folate)"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/TextView011"
+            android:layout_width="580dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/folic_acid"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="Folic acid is a B vitamin and it has been shown that mothers need higher than normal amounts in order to reduce the risk of neural tube defects (e.g. spina bifida) in the infant. Women who are pregnant or who are planning a pregnancy should supplement with 0.4mg (400mcg) of folic acid every day, and continue to do so for the first 12 weeks of pregnancy. \n\nWomen who have previously had a baby with a neural tube defect or who are on drug therapy for epilepsy are often prescribed higher doses of 5mg per day (consult your doctor). In addition, expectant mothers are encouraged to ensure their diet includes foods which are rich in folate, including citrus fruits and juices, dark green leafy vegetables, legumes and whole grains."
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/vitamin_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView011"
+            android:layout_below="@+id/TextView011"
+            android:layout_marginTop="30dp"
+            android:text="Vitamin A"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/TextView022"
+            android:layout_width="580dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vitamin_a"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="High levels of some forms of vitamin A can harm the baby's development if taken in too high amounts during pregnancy. Mothers therefore should avoid vitamin A supplements and food rich in animal forms of vitamin A, for example liver, throughout their pregnancy."
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/iron"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView022"
+            android:layout_below="@+id/TextView022"
+            android:layout_marginTop="30dp"
+            android:text="Iron"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/TextView033"
+            android:layout_width="580dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iron"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="It's important for the mother to consume good amounts of iron rich foods during pregnancy. Iron from both animal food sources and plant sources are encouraged."
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/calcium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView033"
+            android:layout_below="@+id/TextView033"
+            android:layout_marginTop="30dp"
+            android:text="Calcium"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/TextView044"
+            android:layout_width="580dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/calcium"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="This is important for healthy bones. Eat plenty of calcium rich foods and aim for 1,000mg per day."
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/nuts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView044"
+            android:layout_below="@+id/TextView044"
+            android:layout_marginTop="30dp"
+            android:text="Nuts"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/TextView055"
+            android:layout_width="580dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nuts"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="Expectant mothers should avoid nuts, peanuts and nut products in order to reduce the risk of your child developing a nut or peanut allergy. This is especially important if the mother suffers from asthma, eczema or hay fever."
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/oily_fish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView055"
+            android:layout_below="@+id/TextView055"
+            android:layout_marginTop="30dp"
+            android:text="Oily Fish"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/TextView066"
+            android:layout_width="580dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/oily_fish"
+            android:layout_below="@+id/oily_fish"
+            android:layout_marginTop="30dp"
+            android:text="While a good intake of essential fats is important during pregnancy, too much oily fish that may contain high levels of mercury is not advised. It is therefore suggested that an expectant mother limits herself to two portions of oily fish per week."
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/alcohol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView066"
+            android:layout_below="@+id/TextView066"
+            android:layout_marginTop="30dp"
+            android:text="Alcohol"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/TextView077"
+            android:layout_width="580dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/alcohol"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="Although there may be no harm in consuming a little alcohol occasionally during pregnancy, the current recommendation is for an expectant mother to avoid alcohol altogether."
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tea_coffee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView077"
+            android:layout_below="@+id/TextView077"
+            android:layout_marginTop="30dp"
+            android:text="Tea / Coffee"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/TextView088"
+            android:layout_width="580dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tea_coffee"
+            android:layout_below="@+id/tea_coffee"
+            android:layout_marginTop="30dp"
+            android:text="High caffeine consumption has been linked to an increased risk of miscarriage, so it's probably wise to limit caffeine. Cut down to a maximum of one or two cups of tea or coffee per day. More recent studies have linked green tea to the lowering of folic acid levels, so try to avoid green tea whislt trying to conceive and during the first 12 weeks of pregnacy; after 3 months, 1-2 cups of green tea per day will be fine."
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/healthy_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView088"
+            android:layout_below="@+id/TextView088"
+            android:layout_marginTop="30dp"
+            android:text="Healthy Weight"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/TextView099"
+            android:layout_width="580dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/healthy_weight"
+            android:layout_below="@+id/healthy_weight"
+            android:layout_marginTop="30dp"
+            android:text="It's important that the mother doesn't gain excessive amounts of body fat and the ideal weight gain is 9-13kg (1½ - 2 stones) during pregnancy. Excess weight gain is difficult to lose afterwards. If you are overweight prior to becoming pregnant, then eat healthily during the pregnancy to minimise any further weight gain."
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/food_safety"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView099"
+            android:layout_below="@+id/TextView099"
+            android:layout_marginTop="30dp"
+            android:text="Food Safety"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/TextView100"
+            android:layout_width="580dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/food_safety"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="It's especially important during pregnancy to ensure that food is prepared properly and free from contamination in order to minimise risk of food poisoning. As pregnancy impairs a mother's immune system, food poison bacteria like salmonella and listeria are even more of an issue. Avoid the following: raw eggs or foods which contain raw eggs, unpasteurised milk, soft, unpasteurised cheeses such as feta, goat, Brie, Camembert, and blue cheese and raw or undercooked meats or fish.
+
+Although the risk of listeria from deli meats is very low, as a matter of caution it's also best to avoid deli meats during pregnacny."
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/morning_sickness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView100"
+            android:layout_below="@+id/TextView100"
+            android:layout_marginTop="30dp"
+            android:text="Morning Sicknenss"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/TextView11"
+            android:layout_width="580dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/morning_sickness"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="This usually occurs only during the first four months. If it is a problem, stick to light energy-dense foods, but never skip meals. A fizzy drink and a plain biscuit may be better tolerated. Avoid fried and spicy foods."
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/heatburn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView11"
+            android:layout_below="@+id/TextView11"
+            android:layout_marginTop="30dp"
+            android:text="Heatburn"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/TextView12"
+            android:layout_width="580dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/heatburn"
+            android:layout_below="@+id/heatburn"
+            android:layout_marginTop="30dp"
+            android:text="This is not uncommon later in pregnancy. Again, avoid fried and spicy foods, and don't drink at meal times."
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/constipation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView12"
+            android:layout_below="@+id/TextView12"
+            android:layout_marginTop="30dp"
+            android:text="Constipation"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/TextView13"
+            android:layout_width="580dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/constipation"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="22dp"
+            android:text="Eat plenty of high fibre foods and drink plenty of fluid (12 cups per day). However, avoid natural unprocessed bran and unprescribed laxatives."
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/breast_feeding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView13"
+            android:layout_below="@+id/TextView13"
+            android:layout_marginTop="30dp"
+            android:text="Breast Feeding"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/TextView14"
+            android:layout_width="580dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/breast_feeding"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="Generally this is encouraged over bottle feeding, as it helps provide the new-born infant with optimal nutrition, aswell as helping the mother to lose some of the excess fat gained during pregnancy from around the bum and hips. However if you do choose to breast feed drink plenty of fluid and continue to heed all the points above."
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/TextView15"
+            android:layout_width="580dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextView14"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="The following meal plan is an example plan of a healthy diet which is suitable for a pregnant mother. It is aimed at providing sufficient nutrition for both mother and infant with a healthy weight gain for the mother. Use this to give you an idea of what are healthy and nutritious foods to include, but don't forget to vary your food choices and to drink plenty of water through the day. Food portion sizes will need to be adjusted to suit different women with different activities."
+            android:textSize="30sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView15" >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/textView3"
+            android:layout_toRightOf="@+id/textView3"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="High fibre cereal (porridge, no added sugar muesli, Shredded Wheat, Weetabix, etc) + 200ml skimmed milk
+and/or 1-2 slices granary bread with olive oil-based spread and natural jam, marmalade, honey
+250ml fruit juice"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_below="@+id/textView4"
+            android:layout_marginTop="30dp"
+            android:text="Mid-\nMorning"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_alignTop="@+id/TextView01"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="1-2 oatcakes or rye crispbread
+Banana
+Tbsp sunflower seeds
+Drink water"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView01"
+            android:layout_below="@+id/TextView02"
+            android:layout_marginTop="30dp"
+            android:text="Lunch"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/TextView03"
+            android:layout_toRightOf="@+id/textView3"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Sandwich: 2 slices granary bread + olive oil-based spread + cooked chicken breast, sliced ham, tuna or cheese
+or 3-4 oatcakes or rye crispbread with cottage cheese
+Mixed salad
+Low fat / low sugar yoghurt
+Drink water"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView03"
+            android:layout_below="@+id/TextView04"
+            android:layout_marginTop="30dp"
+            android:text="Mid-\nAfternoon"
+            android:textSize="48sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView04"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/TextView05"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="1-2 oatcakes or rye crispbread
+Banana
+Tbsp sunflower seeds
+Drink water"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/TextView07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView05"
+            android:layout_below="@+id/TextView06"
+            android:layout_marginTop="30dp"
+            android:text="Evening \nMeal"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView06"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/TextView07"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Chicken breast or white fish or lean meat
+and (dry weight) basmati rice or wholewheat pasta or 5-6 small boiled new potatoes or sweet potato
+and loads of veg or large salad
+Gravy / sauce - optional
+Drink water"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/TextView09"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView07"
+            android:layout_below="@+id/TextView08"
+            android:layout_marginTop="30dp"
+            android:text="Evening"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView08"
+            android:layout_alignTop="@+id/TextView09"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="High fibre cereal (porridge, no added sugar muesli, Shredded Wheat, Weetabix, etc) + 200ml skimmed milk
+Drink water"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="31dp"
+            android:text="Breakfast"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+            
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

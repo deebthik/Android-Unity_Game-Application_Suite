@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/black" >
+
+    <Button
+        android:id="@+id/bmi_calculator"
+        android:layout_width="580dp"
+        android:layout_height="130dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/button1"
+        android:text="BMI Calculator"
+        android:textSize="80sp" />
+
+    <Button
+        android:id="@+id/about_bmi"
+        android:layout_width="480dp"
+        android:layout_height="130dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="124dp"
+        android:background="@drawable/button1"
+        android:text="About BMI?"
+        android:textSize="80sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_above="@+id/bmi_calculator"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="116dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/green_bar_h" />
+
+    <ImageView
+        android:id="@+id/ImageView01"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/bmi_calculator"
+        android:layout_marginTop="112dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/green_bar_h" />
+
+    <Button
+        android:id="@+id/bmi_scale"
+        android:layout_width="480dp"
+        android:layout_height="130dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ImageView01"
+        android:layout_marginTop="132dp"
+        android:background="@drawable/button1"
+        android:text="BMI Scale"
+        android:textSize="80sp" />
+
+"
+
+</RelativeLayout>

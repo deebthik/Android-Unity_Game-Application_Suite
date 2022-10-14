@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 16a88086eb4f248a5ae6c6080b9e911e
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - red_cylinder: {instanceID: 0}
+  - green_cylinder: {instanceID: 0}
+  - blue_cylinder: {instanceID: 0}
+  - yellow_cylinder: {instanceID: 0}
+  - crane: {instanceID: 0}
+  - big_cuboid: {instanceID: 0}
+  - small_cuboid_1: {instanceID: 0}
+  - small_cuboid_2: {instanceID: 0}
+  - ball: {instanceID: 0}
+  - clone: {instanceID: 0}
+  - ball_clone: {fileID: 100000, guid: 3a426a5f7c6aa4cbd9d0596da1c06c58, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

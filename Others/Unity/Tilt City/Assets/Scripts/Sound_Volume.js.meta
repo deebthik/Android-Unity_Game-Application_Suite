@@ -1,0 +1,40 @@
+fileFormatVersion: 2
+guid: 42ffe0b40d19c41a2b5bf94b80302cc7
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - menu_play_button: {instanceID: 0}
+  - menu_options_button: {instanceID: 0}
+  - menu_how_to_play_button: {instanceID: 0}
+  - menu_exit_button: {instanceID: 0}
+  - tilt_city: {instanceID: 0}
+  - menu_play_button_plane_prefab: {instanceID: 0}
+  - menu_options_button_plane_prefab: {instanceID: 0}
+  - menu_how_to_play_button_plane_prefab: {instanceID: 0}
+  - red_cylinder: {instanceID: 0}
+  - red_cylinder_halo: {instanceID: 0}
+  - green_cylinder: {instanceID: 0}
+  - green_cylinder_halo: {instanceID: 0}
+  - blue_cylinder: {instanceID: 0}
+  - blue_cylinder_halo: {instanceID: 0}
+  - yellow_cylinder: {instanceID: 0}
+  - yellow_cylinder_halo: {instanceID: 0}
+  - crane: {instanceID: 0}
+  - big_cuboid: {instanceID: 0}
+  - small_cuboid_1: {instanceID: 0}
+  - small_cuboid_2: {instanceID: 0}
+  - score: {instanceID: 0}
+  - score_text: {instanceID: 0}
+  - green_button: {instanceID: 0}
+  - blue_button: {instanceID: 0}
+  - music_on: {instanceID: 0}
+  - music_off: {instanceID: 0}
+  - mute: {instanceID: 0}
+  - unmute: {instanceID: 0}
+  - slash: {instanceID: 0}
+  - pause_button: {instanceID: 0}
+  - gui_skin: {fileID: 11400000, guid: 90f693a9d37c847bfa3cb84505a928c5, type: 2}
+  - music_volume_text: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

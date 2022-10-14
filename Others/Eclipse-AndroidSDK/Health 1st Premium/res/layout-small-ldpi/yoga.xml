@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/light_orange"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="If you think of people in seemingly impossible and weirdly twisted poses when you think of &apos;Yoga&apos;, then you may have an inkling of what yoga is, just an inkling that&apos;s it. Yoga is much more than those poses. Derived from the Sankrit word &apos;yuj&apos; which means &apos;to unite or integrate&apos;; yoga is a 5000 year old Indian body of knowledge. Yoga is all about harmonizing the body with the mind and breath through the means of various breathing techniques, yoga postures (asanas) and meditation."
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:background="@color/light_green"
+            android:gravity="center"
+            android:text="Yoga"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="20dp"
+            android:background="@color/light_blue"
+            android:gravity="center"
+            android:text="What is Yoga?"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="20dp"
+            android:background="@color/light_blue"
+            android:gravity="center"
+            android:text="Yoga Poses"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextView01"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Many people think that yoga is just stretching. But while stretching is certainly involved, yoga is really about creating balance in the body through developing both strength and flexibility. This is done through the performance of poses or postures, each of which has specific physical benefits. The poses can be done quickly in succession, creating heat in the body through movement (vinyasa-style yoga) or more slowly to increase stamina and perfect the alignment of the pose."
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView02"
+            android:layout_marginTop="20dp"
+            android:background="@color/light_blue"
+            android:gravity="center"
+            android:text="Yoga Practice"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextView03"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Yoga teachers will often refer to &apos;your practice&apos;, which means your individual experience with yoga as it develops over time. The amazing thing about yoga is that your practice is always evolving and changing, so it never gets boring. Although the poses themselves do not change, your relationship to them will. Anyone can start a yoga practice, even if you don&apos;t feel like you are very flexible or very strong. These things will improve the longer you practice. Another great thing about thinking about &apos;your practice&apos; is that it encourages the noncompetitive spirit of yoga. One of the most difficult, but ultimately most liberating things about yoga is letting go of the ego and accepting that no one is better than anyone else."
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView04"
+            android:layout_marginTop="20dp"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="Top 5 Yoga Poses(Asanas)"
+            android:textColor="@color/white"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/bow_pose_button"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/TextView04"
+            android:layout_below="@+id/textView4"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button1"
+            android:text="1. Bow Pose"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/crescent_lunge_pose_button"
+            android:layout_width="310dp"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/bow_pose_button"
+            android:layout_below="@+id/bow_pose_button"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button1"
+            android:text="2. Crescent Lunge Pose"
+            android:textSize="26sp" />
+
+        <Button
+            android:id="@+id/bridge_pose_button"
+            android:layout_width="230dp"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/crescent_lunge_pose_button"
+            android:layout_below="@+id/crescent_lunge_pose_button"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button1"
+            android:text="3. Bridge Pose"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/plow_pose_button"
+            android:layout_width="210dp"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/bridge_pose_button"
+            android:layout_below="@+id/bridge_pose_button"
+            android:layout_marginTop="21dp"
+            android:background="@drawable/button1"
+            android:text="4. Plow Pose"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/shoulder_stand_button"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/plow_pose_button"
+            android:layout_below="@+id/plow_pose_button"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button1"
+            android:text="5. Shoulder Stand"
+            android:textSize="30sp" />
+        
+    </RelativeLayout>
+    
+
+</ScrollView>

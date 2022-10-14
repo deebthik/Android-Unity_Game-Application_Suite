@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/shoulder_stand_scrollview"
+    android:background="@color/light_blue"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:background="@color/light_orange"
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:text="Shoulder Stand \n(Sarvangasana)" />
+
+        <TextView
+            android:id="@+id/shoulder_stand_instructions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Instructions"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/shoulder_stand_instructions"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Lie on the floor on your back with your arms alongside your body, palms down. Bring your legs in the air towards the ceiling. Press into your hands to lift your legs over your head, coming to Plow Pose.
+
+Clasp your hands together and try to roll your shoulder blades towards each other. Bring your hands to your lower back for support, make sure your fingers are spread wide. Slowly lift your legs to the ceiling one leg at a time. Try to get as straight as possible by walking your hands close to your shoulders. Hold for 1 to 3 minutes"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/shoulder_stand_purpose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextView01"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Purpose"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/shoulder_stand_purpose"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="The Shoulder Stand stimulates and rejuvenates your entire body. In this exercise, you build up both power and a new structure in your back and you relax tension in well-known stress areas like the neck and the lower back. The muscles of your lower back get stronger, the chest and shoulders can move more freely and the back gets straighter. The Shoulder Stand also stimulates the thyroid gland and is good for blood circulation in the chest, shoulders, upper back and the neck. "
+            android:textSize="20sp" />
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:layout_below="@+id/TextView02"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical" >
+
+            <VideoView
+                android:id="@+id/shoulder_stand_video"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    
+
+</ScrollView>

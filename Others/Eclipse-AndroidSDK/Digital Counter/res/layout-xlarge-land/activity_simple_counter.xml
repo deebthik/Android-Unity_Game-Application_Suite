@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <Button
+        android:id="@+id/add1"
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/view1"
+        android:layout_marginTop="186dp"
+        android:text="Add 1"
+        android:textSize="100dp" />
+
+    <Button
+        android:id="@+id/subtract1"
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/add1"
+        android:layout_marginTop="49dp"
+        android:text="Subtract 1"
+        android:textSize="100dp" />
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/subtract1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="25dp"
+        android:fontFamily="Arial"
+        android:gravity="center"
+        android:text="Your Count is"
+        android:textSize="100dp" />
+
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/subtract1"
+        android:layout_alignLeft="@+id/text_view"
+        android:layout_marginLeft="255dp"
+        android:fontFamily="Arial"
+        android:text="0"
+        android:textSize="150dp" />
+
+</RelativeLayout>

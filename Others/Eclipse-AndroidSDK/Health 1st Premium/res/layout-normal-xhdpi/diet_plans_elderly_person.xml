@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/light_green"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:background="@color/light_yellow"
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:text="Diet Plan for Elderly Person" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:text="The following example meal plan has been designed for a typical elderly individual. It's nutritionally balanced to suit an elderly person who is moderately active and in reasonable health in order to maintain their weight. \n\nObviously this is based on an average elderly person, and there may be significant variation in activity, mobility, weight, appetitive, etc, so like all plans, it is merely an example and needs to be adapted to suit an individual's own lifestyle, daily routine and nutritional requirements. Use this to give you an idea of what are healthy nutritious foods to include, but don't forget to vary your food choices.\n\nOne particular concern in the elderly is obtaining sufficient fluid intake. Following retirement it's not uncommon for people to drink less, as they no longer have scheduled coffee breaks at work. The plan below includes drinks, but it's also recommended to drink more water throughout the day." />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:text="Breakfast"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/textView3"
+            android:layout_toRightOf="@+id/textView3"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="High fibre cereal (like Weetabix, bran flakes, Shreddies, muesli, porridge, etc) + 200ml skimmed milk + 1 tsp sugar
+200ml fruit juice
+Mug tea/coffee"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_below="@+id/textView4"
+            android:layout_marginTop="20dp"
+            android:text="Mid-\nMorning"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_alignTop="@+id/TextView01"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="2 digestive biscuits
+Item fruit
+Drink"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView01"
+            android:layout_below="@+id/TextView02"
+            android:layout_marginTop="20dp"
+            android:text="Lunch"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/TextView03"
+            android:layout_toRightOf="@+id/textView3"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Sandwich: 2 slices wholemeal bread + olive oil-based spread + slice chicken/ham
+or 2 eggs (poached / scrambled / boiled) + 2 slices wholemeal toast
+Mixed salad
+Low fat / low sugar yoghurt
+Drink"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView03"
+            android:layout_below="@+id/TextView04"
+            android:layout_marginTop="20dp"
+            android:text="Mid-\nAfternoon"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView04"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/TextView05"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Item fruit
+Drink\n"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TextView07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView05"
+            android:layout_below="@+id/TextView06"
+            android:layout_marginTop="20dp"
+            android:text="Evening \nMeal"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView06"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/TextView07"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Medium chicken breast or 200g white fish (cod / haddock / plaice / hake) or lean cut beef / pork / lamb
+and 1 medium jacket potato or 3-4 small boiled potatoes / mashed potato
+and loads of veg
+Gravy – optional
+Tinned or stewed fruit
+Drink water"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TextView09"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView07"
+            android:layout_below="@+id/TextView08"
+            android:layout_marginTop="20dp"
+            android:text="Evening"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView08"
+            android:layout_alignTop="@+id/TextView09"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Hot milky drink\n"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+</ScrollView>

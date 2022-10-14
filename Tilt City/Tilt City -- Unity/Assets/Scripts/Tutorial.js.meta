@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 23a7e6cd0081445d9a54d1c8688ede51
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - gui_skin_3: {fileID: 11400000, guid: 40bdca8d2443642eda11ebc3d2d39fd5, type: 2}
+  - tilt_icon: {instanceID: 0}
+  - touch_icon: {instanceID: 0}
+  - touch_icon_inverted: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

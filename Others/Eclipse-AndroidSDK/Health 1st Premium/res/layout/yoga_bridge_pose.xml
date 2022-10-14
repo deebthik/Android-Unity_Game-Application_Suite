@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bridge_pose_scrollview"
+    android:background="@color/light_blue"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:background="@color/light_orange"
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:text="Bridge Pose \n(Setu Bandhanasana)" />
+
+        <TextView
+            android:id="@+id/bridge_pose_instructions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Instructions"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bridge_pose_instructions"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Lie on your back with your knees bent, feet hip-distance apart and flat on the floor. Reach down with your fingertips to see if you can feel your heels.  If not, walk your heels a little closer to your body.
+
+Press your weight into your feet to lift your hips up towards the ceiling. Keep your thighs parallel. Bring your arms underneath you and try to clasp your hands together (Don't worry if you can't do it at first). Roll your shoulders blades toward each other and hold this pose for 45 seconds to 1 minute. Release and roll slowly back to the floor. Repeat two more times."
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/bridge_pose_purpose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextView01"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Purpose"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bridge_pose_purpose"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Bridge pose is a gentle inversion that works with gravity to open your entire chest and shoulder area. Because the chest is lifted up towards the chin, the thyroid gland is being massaged. (Your thyroid makes the hormones that regulate your metabolism.)"
+            android:textSize="20sp" />
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_below="@+id/TextView02"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical" >
+
+            <VideoView
+                android:id="@+id/bridge_pose_video"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/light_yellow"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:background="@color/light_blue"
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:textSize="60sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="What is Diet?" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="580dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Nutritionists use &apos;diet&apos; to mean all the food you eat. Diet is not just menus for a day or week, but your usual food choices over time. Many other people use &apos;diet&apos; to describe a plan for weight loss or a specific prescription. "
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="20dp"
+            android:background="@color/light_blue"
+            android:gravity="center"
+            android:text="What is a Healthy Diet?"
+            android:textSize="60sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="580dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextView01"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="A healthy diet should emphasize plenty of fruits, vegetables and whole grains. These foods are high in complex carbohydrates, fiber, vitamins, and minerals, low in fat, and free of cholesterol. Fill the bulk of your diet with these healthy and nutritious food choices. The rest of your diet should come from low-fat dairy products, lean meat and poultry, and fish. Avoid foods that are high in saturated fats, trans fat, cholesterol, salt and added sugars.
+
+Physical activity is an important part of maintaining an overall healthy diet. Calorie expenditure is just as important as your calorie intake. If you consume more calories than your body can use you will begin to gain weight. More activity means you can eat more food and continue to maintain a balanced diet. "
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView02"
+            android:layout_marginTop="20dp"
+            android:background="@color/light_blue"
+            android:gravity="center"
+            android:text="Why is a Healthy Diet Important?"
+            android:textSize="60sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="580dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextView03"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="A healthy diet will help ensure your body is getting the nutrition it needs, and will help you maintain a healthy weight. People who are overweight or obese are at an increased risk for certain health problems such as heart disease, diabetes, high blood pressure and stroke. Your weight is directly affected by your diet and physical activity, and the food you eat greatly affects your body and how blood flows through your heart and arteries. \n\nHigh fat and high cholesterol diets can cause a buildup of plaque in your arteries. A blockage in a heart artery can cause a heart attack just as a blockage in your brain can cause a stroke. A healthy diet will help prevent buildup in your arteries and blood vessels and reduce your risk of acquiring weight-related health problems."
+            android:textSize="30sp" />
+
+    </RelativeLayout>
+    
+
+</ScrollView>

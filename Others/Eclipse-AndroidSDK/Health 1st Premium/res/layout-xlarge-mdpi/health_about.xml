@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/light_blue" >
+    
+    <RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"  >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:gravity="center"
+        android:text="What is Health ?"
+        android:textSize="70sp" 
+        android:background="@color/light_orange"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="750dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Health is a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity.\nHealth is the level of functional or metabolic efficiency of a living organism. In humans, it is the general condition of a person&apos;s mind and body, usually meaning to be free from illness, injury or pain (as in &apos;good health&apos; or &apos;healthy&apos;)."
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="40dp"
+        android:background="@color/light_orange"
+        android:gravity="center"
+        android:text="What is being Healthy ?"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="750dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextView01"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Being healthy is showing consistent effort in maintaining an overall positive feeling of healthiness, as well as contributing to personal nutrition and physical form so that you can live a balanced and capable life.\nGood health is balance of three sides: physical, mental and spiritual, each made up of their own competing interests."
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView02"
+        android:layout_marginTop="40dp"
+        android:background="@color/light_orange"
+        android:gravity="center"
+        android:text="How to be Healthy ?"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/sleep"
+        android:layout_width="750dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextView03"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="1. Sleep"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="750dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sleep"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="For every human, sleep is a very important aspect of being healthy. Here are the necessary hours of sleep required required for different age-groups:\n\nInfants - 9-15 hours\nSchool Going Children - 9-11 hours\nAdults - 9 hours"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/eat_well"
+        android:layout_width="750dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextView04"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="2. Eat Well"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/TextView05"
+        android:layout_width="750dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/eat_well"
+        android:layout_below="@+id/eat_well"
+        android:layout_marginTop="10dp"
+        android:text="Eat well, eat often. 4-6 small meals a day to optimize your metabolism and keep your body energized and in balance. Don't deny yourself treats, but make sure that the majority of your food choices are high in nutrients, fiber, 'good fats,' and lean protein. "
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/personal_hygiene"
+        android:layout_width="750dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextView05"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="3. Personal Hygiene"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/TextView07"
+        android:layout_width="750dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/personal_hygiene"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Wash your hands often, especially after visiting the bathroom at home or using the restrooms in a public place. Floss and brush your teeth and tongue after eating; food particles are often the cause of bad breath and gum disease. Visit your dentist regularly for cleanings and to catch any problems before they become serious. "
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/exercise"
+        android:layout_width="750dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextView07"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="4. Exercise"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/TextView08"
+        android:layout_width="750dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exercise"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Exercise daily or if not possible twice or thrice a week. It will increase your metabolic rate and you'll feel fresh the whole week."
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/laugh"
+        android:layout_width="750dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextView08"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="5. Laugh"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/TextView06"
+        android:layout_width="750dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/laugh"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Did you know that laughter was an ab-toning exercise? Well it is! \nIt is also a blood-oxygenator, endorphin-releaser, and general body relaxer."
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/drink_water"
+        android:layout_width="750dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextView06"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="6. Drink Water"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/TextView09"
+        android:layout_width="750dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/drink_water"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Imbibe 8-12 glasses of clear, hydrating fluid (i.e. Water) to keep your system functioning at its best—and toxins moving toward the exits."
+        android:textSize="40sp" />
+
+</RelativeLayout>
+
+</ScrollView>
+
+

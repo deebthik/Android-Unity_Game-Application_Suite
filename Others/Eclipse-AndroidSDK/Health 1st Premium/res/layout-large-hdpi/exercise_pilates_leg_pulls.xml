@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pilates_leg_pulls_scrollview"
+    android:background="@color/light_green"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+  <RelativeLayout
+            android:id="@+id/RelativeLayout02"
+            android:layout_width="match_parent"
+            android:layout_height="1250dp" >
+
+            <TextView
+                android:id="@+id/pilates_leg_pulls_instructions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pilates_leg_pulls"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="Instructions"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/TextView05"
+                android:layout_width="580dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pilates_leg_pulls_instructions"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="Lie facedown on a mat with hands by shoulders. Engage your core muscles to stabilize your lower back and shoulders.
+Exhale, and push up into a full pushup position (bodyweight in hands and toes).
+Hold the full pushup position and exhale as you lift one foot from the ground as high as you can without arching your back.
+Inhale, and lower your lifted leg back to the ground, then immediately exhale and as you repeat the motion.
+Without leaving the pushup position repeat the leg lift until all repetitions are complete then switch legs and perform the motion on the other leg. You can also alternate until all repetitions are complete."
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/pilates_leg_pulls_purpose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/TextView05"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="Purpose"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/TextView09"
+                android:layout_width="580dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pilates_leg_pulls_purpose"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="When executed from a full pushup position, this calls heavily upon your core muscles. The leg lifts are excellent for gluteus and thigh toning; this move can actually give you a bit of a butt lift because of the way the glutes and hamstrings are incorporated. To get a toned core with this Pilates move, be sure to keep your pelvis and torso stabilized throughout the motion; don’t let them tilt or twist. This utilizes multiple muscles, from the shoulders to the knee joints, providing total body toning without a single piece of equipment. This exercise naturally has a small range of motion; don’t force range of motion with jerky or bouncy movements."
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/pilates_leg_pulls"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="20dp"
+                android:background="@color/light_orange"
+                android:text="3. Pilates Leg Pulls"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="450dp"
+                android:layout_below="@+id/TextView09"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical" >
+
+                <VideoView
+                    android:id="@+id/pilates_leg_pulls_video"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+        </RelativeLayout>
+    
+
+</ScrollView>
